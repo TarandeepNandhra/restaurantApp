@@ -9,3 +9,7 @@
 - styling a search bar
 - axios vs fetch
   - baseURL
+
+- useEffect hook
+  -useEffect( function, []) --> empty array means to run function once
+  - can put a value in the array, runs whenever value is changed
