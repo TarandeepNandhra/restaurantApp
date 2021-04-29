@@ -24,9 +24,9 @@ export default () => {
 
   // Use effect with [], means api req is only called once
   useEffect(() => {
-    searchApi('Nandos');
+    searchApi('beef');
   }, []);
 
   // Things we need in SearchScreen comp
-  return [searchApi, results, errorMessage]
+  return [searchApi, results, errorMessage];
 };
