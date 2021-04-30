@@ -11,5 +11,10 @@
   - baseURL
 
 - useEffect hook
-  -useEffect( function, []) --> empty array means to run function once
+  - useEffect( function, []) --> empty array means to run function once
   - can put a value in the array, runs whenever value is changed
+
+- ScrollView: vertical scrolling if goes beyond the screen
+- flex:1 to most parent view --> fill up the screen.
+
+- Empty elements <> and </>, implicit flex: 1
