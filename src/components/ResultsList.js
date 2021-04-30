@@ -4,6 +4,11 @@ import ResultsDetail from './ResultsDetail'
 import { withNavigation } from 'react-navigation'
 
 const ResultsList = ({ title, results, navigation }) => {
+  if (!results.length) {
+    // Don't show anything -> if empty does not show category.
+    return null;
+  }
+
   return (
     <View style={styles.container}>
         <Text style={styles.titleStyle}>{title}</Text>
