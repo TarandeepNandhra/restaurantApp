@@ -18,3 +18,7 @@
 - flex:1 to most parent view --> fill up the screen.
 
 - Empty elements <> and </>, implicit flex: 1
+
+- withNavigations - weird how it works
+- Passing information in navigate (second arg)
+- navigation.getParam('id');

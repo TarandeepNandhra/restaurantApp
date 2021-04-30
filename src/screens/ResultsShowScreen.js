@@ -1,8 +1,24 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import yelp from '../api/yelp';
 
-const ResultsShowScreen = () => {
+const ResultsShowScreen = ({ navigation }) => {
+  // null -> not yet fetched data
+  const [result, setResult] = useState(null);
+  const id = navigation.getParam('id');
+
+  console.log(result);
+
+  const getResult = async (id) => {
+    const response =  yelp.get(`/${id}`);
+    setResult(response.data);
+  };
+  useEffect(() => {
+    getResult(id);
+  }, []);
+
   return (
+
     <View>
       <Text>Results Show</Text>
     </View>
