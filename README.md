@@ -2,9 +2,8 @@
 To run the app:
 - Clone the repo
 - run `npm i` to install dependencies
-- run `npm start` to run Metro
-- `i` for ios, if you have Expo
-- otherwise, `w` for web.
+- run `npm run ios` for native ios app, if you have Expo
+- otherwise, run `npm run web` for web version.
 
 ## Notes
 
