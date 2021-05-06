@@ -1,4 +1,12 @@
 # Restaurant search app
+To run the app:
+- Clone the repo
+- run `npm i` to install dependencies
+- run `npm start` to run Metro
+- `i` for ios, if you have Expo
+- otherwise, `w` for web.
+
+## Notes
 
 - Created app files using `npx expo-cli init food --npm`
 - React navigator (version 4.x)
